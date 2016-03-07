@@ -1,6 +1,5 @@
 <ul>
-{% assign sorted_pages = site.pages | sort:"name" %}
-{% for node in sorted_pages %}
-  <li><a href="{{node.url}}">{{node.title}}</a></li>
-{% endfor %}
+  <li><a href="http://johanbissemattsson.github.io/jekylltest/testsida1">Testsida1</a></li
+  <li><a href="http://johanbissemattsson.github.io/jekylltest/testsida2">Testsida2</a></li>
+  <li><a href="http://johanbissemattsson.github.io/jekylltest/testsida3">Testsida3</a></li>
 </ul>
