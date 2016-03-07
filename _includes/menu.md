@@ -1,8 +1,5 @@
-    Meny:
-    <ul>
-      {% for p in site.pages %}
-        <li>
-          <a href="{{ p.url }}">{{ p.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+Meny:
+{% assign sorted_pages = site.pages | sort:"name" %}
+{% for node in sorted_pages %}
+  <li><a href="{{node.url}}">{{node.title}}</a></li>
+{% endfor %}
