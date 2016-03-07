@@ -1,4 +1,3 @@
-Meny:
 <ul>
 {% assign sorted_pages = site.pages | sort:"name" %}
 {% for node in sorted_pages %}
