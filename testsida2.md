@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Testsida 2
-permalink: /jekylltest/testsida2
+permalink: /testsida2
 published: true
 ---
 
