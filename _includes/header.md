@@ -12,7 +12,7 @@
     <![endif]-->
   </head>
   <body>
-  <div class="wrapper"
+  <div class="wrapper">
   <header>
   Sidhuvud
   {% include menu.md %}
