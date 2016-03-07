@@ -13,5 +13,6 @@
   </head>
   <body>
   <header>
-  
+  Sidhuvud
+  {% include menu.md %}
   </header>
